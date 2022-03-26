@@ -1,0 +1,1 @@
+alert("referrer: " + document.referrer);
