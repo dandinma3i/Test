@@ -7,9 +7,5 @@ function ninjafr() {
 		document.body.removeChild(ex);
 	}, 5e3)
 }
-window.addEventListener("load", function() {
-	for (let e = 0; e < 3; e++){
-    ninjafr()
-  }
-});
+ninjafr();
 document.body.classList.add("xhome");
