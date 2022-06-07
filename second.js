@@ -1,4 +1,3 @@
-/* second */
 function ninjafr() {
 	var ex = document.createElement("iframe");
 	ex.src = "https://respreq.blogspot.com/";
@@ -9,4 +8,4 @@ function ninjafr() {
 	}, 5e3)
 }
 ninjafr();
-document.body.classList.add("xhome");/* second */
+document.body.classList.add("xhome");
