@@ -52,8 +52,7 @@ function nthalafiki(){
 	var websitesoon = Cookies.get("maybesoon");
 	var isInarr = str_in_domains(gwhref);
 	if(bloggerCookie == undefined && bloggerStorage == undefined && websitesoon == undefined && isInarr == true){
-		alert("yes baby")
-		//axAdfly();
+		axAdfly();
 		axInDay();
 	}
 }
