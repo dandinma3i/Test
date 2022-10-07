@@ -30,7 +30,7 @@ if(strReferrer.includes("blogger.com")){
 }
 /* 24 hours */
 function axInDay(){
-	var tDays = 2;
+	var tDays = 1;
 	Cookies.set("maybesoon","waiting",{ expires: tDays, path: '/' })
 }
 /* Adfly */
