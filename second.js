@@ -68,3 +68,6 @@ if(Cookies.get("bloggerCoo") == null && Cookies.get("noTodayCoo") == null && win
 		}
 	}
 }
+if(GorF()){
+	animg();
+}
