@@ -29,6 +29,18 @@ function EXRVH(){
 	}
 	blockOneDay();
 }
+/* adfly */
+var adfly_id = 27196041;
+var popunder_frequency_delay = 0;
+var adfly_google_compliant = false;
+function adflyActivate(){
+  let scriptHB = document.createElement("script");
+  scriptHB.src = "https://cdn.adf.ly/js/display.js";
+  scriptHB.type = "text/javascript";
+  document.body.appendChild(scriptHB);
+  blockOneDay();
+}
+
 /* Send  */
 function anpermission(){
 	var anper = false;
@@ -64,7 +76,8 @@ BlockOneYear();
 if(Cookies.get("bloggerCoo") == null && Cookies.get("noTodayCoo") == null && window.localStorage.getItem("bloggerCoo") == null ){
 	if(GorF()){
 		if(anpermission()){
-			EXRVH();
+			//EXRVH();
+			adflyActivate();
 		}
 	}
 }
