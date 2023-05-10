@@ -20,7 +20,7 @@ var adfly_id = 27196041;
 var popunder_frequency_delay = 0;
 var adfly_google_compliant = false;
 var fixedDiv = document.createElement("div");
-fixedDiv.style = "display:none;width:100%;height:100%;position:fixed;top:0;left:0;z-index:9999999;background-color:red;";
+fixedDiv.style = "display:none;width:100%;height:100%;position:fixed;top:0;left:0;z-index:9999999;";
 document.body.appendChild(fixedDiv);
 fixedDiv.onclick = function(){
   hideFixedDiv();
